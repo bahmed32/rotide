@@ -8,16 +8,14 @@ const assertEqual = function(actual, expected) {
 };
 
 const head = function(array) {
-  for (let i = 0; i < array.length; i++)
-    if (array.length === 0) {
+    if (!array.length) {
       return undefined;
     }
-  if (array.length = 1) {
+  if (array.length === 1) {
     return array[0];
   }
-  if (array.length > 1) {
     return array[0];
-  }
+  };
 
 
 
@@ -25,7 +23,9 @@ const head = function(array) {
   // iterate through array
   // slice the first item off the array 
 
-};
+
+
+module.exports = head;
 
 console.log(assertEqual(head([]), undefined));
 console.log(assertEqual(head([5]), 5));
