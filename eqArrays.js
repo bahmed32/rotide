@@ -35,3 +35,6 @@ console.log(eqArrays(["1", "2", "3"], ["1", "2", 3]));
 
 console.log(assertEqual(eqArrays([1, 2, 3], [1, 3, 3]), true));
 console.log(assertEqual(eqArrays([1, 2, 3], [1, 2, 2]), false)); // =>
+
+
+module.exports = eqArrays;
