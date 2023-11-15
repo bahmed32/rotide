@@ -12,5 +12,7 @@ const eqArrays = require("./eqArrays");
 };
   
 
-console.log(assertArraysEqual(eqArrays([1, 2, 3], [1, 2, 3]), true));
-console.log(assertArraysEqual(eqArrays([1, 2, 3], [1, 2, 5]), false)); // =>
+// console.log(assertArraysEqual(eqArrays([1, 2, 3], [1, 2, 3]), true));
+// console.log(assertArraysEqual(eqArrays([1, 2, 3], [1, 2, 5]), false)); // =>
+
+module.exports = assertArraysEqual;
