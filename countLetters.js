@@ -14,6 +14,9 @@ const countLetters = function(str) {
 //loop through items in string aka the letter
   for (const letter of str) {
     // if we dont have the letter in new empty object, initialize the letter value to 0
+    if (letter !== ' ') {
+      return 
+    }
     if(!result[letter]){
         result[letter] = 0
 
@@ -44,3 +47,10 @@ const expected = {
 
 result = countLetters("lighthouse");
 console.log(result);
+
+const round = countLetters('LHL');
+assertEqual(round['L'], 2);
+assertEqual(round['H'], 1);
+
+
+module.exports = countLetters;
