@@ -1,4 +1,4 @@
-const assertArraysEqual = require("./assertArraysEqual");
+const assertEqual = require("./assertEqual");
 
 //Instruction
 // Implement the function findKey which takes in an object and a callback. It should scan the object and return the 
@@ -38,5 +38,7 @@ const results = findKey({
   "Ora": { stars: 2 },
   "Akelarre": { stars: 3 }
 }, x => x.stars === 2); // => "noma"
+
+console.log(assertEqual(results, "noma"));
 
 console.log(results);

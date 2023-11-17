@@ -12,7 +12,8 @@ const takeUntil = function(array, callback) {
   let result = [];
   //loop through array 
   for (let item of array) {
-    if (!array[item] = false) {
+    const value = callback(item);
+    if (value) {
       break;
     }
 
