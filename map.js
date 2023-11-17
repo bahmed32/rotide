@@ -14,4 +14,5 @@ const map = function(array, callback) {
 
 const result1 = map(words, word => word[0]);
 console.log(result1);
-assertArraysEqual(map(result1["ground"], "g"))
+const expected = ['g', 'c', 't', 'm', 't'];
+console.log(assertArraysEqual(result1, expected));
