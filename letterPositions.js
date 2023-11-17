@@ -47,4 +47,4 @@ return result
 console.log(letterPositions("hello"))
 console.log(letterPositions("hello world"))
 
-console.log(assertArraysEqual(letterPositions("Hello"). e, [1]));
+console.log(assertArraysEqual(letterPositions("Hello").e, [1]));
