@@ -16,3 +16,5 @@ const result1 = map(words, word => word[0]);
 console.log(result1);
 const expected = ['g', 'c', 't', 'm', 't'];
 console.log(assertArraysEqual(result1, expected));
+
+module.exports = map; 
