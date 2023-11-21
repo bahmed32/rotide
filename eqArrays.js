@@ -27,14 +27,6 @@ const eqArrays = function(array1, array2) {
 //compare the 1st array to the second array 
 
 // // };
-// console.log(eqArrays([1, 2, 3], [1, 2])); // => true
-// console.log(eqArrays([1, 2, 3], [3, 2, 1])); // => false
-
-// console.log(eqArrays(["1", "2", "3"], ["1", "2", "3"])); // => true
-// console.log(eqArrays(["1", "2", "3"], ["1", "2", 3])); 
-
-// console.log(assertEqual(eqArrays([1, 2, 3], [1, 3, 3]), true));
-// console.log(assertEqual(eqArrays([1, 2, 3], [1, 2, 2]), false)); // =>
 
 
 module.exports = eqArrays;
