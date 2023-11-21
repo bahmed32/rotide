@@ -10,9 +10,6 @@ const eqArrays = require("./eqArrays");
     }
   return (`✅✅✅ Assertion Passed: ${array1} === ${array2}`);
 };
-  
 
-// console.log(assertArraysEqual(eqArrays([1, 2, 3], [1, 2, 3]), true));
-// console.log(assertArraysEqual(eqArrays([1, 2, 3], [1, 2, 5]), false)); // =>
 
 module.exports = assertArraysEqual;
