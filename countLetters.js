@@ -32,25 +32,24 @@ const countLetters = function(str) {
   return result;
 
 };
-const expected = {
-  l: 1,
-  i: 1,
-  g: 1,
-  h: 2,
-  t: 1,
-  o: 1,
-  u: 1,
-  s: 1,
-  e: 1
-
-};
-
-result = countLetters("lighthouse");
-console.log(result);
-
-const round = countLetters('LHL');
-assertEqual(round['L'], 2);
-assertEqual(round['H'], 1);
-
-
 module.exports = countLetters;
+// const expected = {
+//   l: 1,
+//   i: 1,
+//   g: 1,
+//   h: 2,
+//   t: 1,
+//   o: 1,
+//   u: 1,
+//   s: 1,
+//   e: 1
+
+// };
+
+// result = countLetters("lighthouse");
+// console.log(result);
+
+// const round = countLetters('LHL');
+// assertEqual(round['L'], 2);
+// assertEqual(round['H'], 1);
+

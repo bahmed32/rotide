@@ -36,7 +36,7 @@ return result
 ///Output expectation
 
 
-
+module.exports = letterPositions;
 // //output 
 //{
 // //h:0
@@ -44,7 +44,7 @@ return result
 // //l:2,3
 // //o: 4
 //}
-console.log(letterPositions("hello"))
-console.log(letterPositions("hello world"))
+// console.log(letterPositions("hello"))
+// console.log(letterPositions("hello world"))
 
-console.log(assertArraysEqual(letterPositions("Hello").e, [1]));
+// console.log(assertArraysEqual(letterPositions("Hello").e, [1]));

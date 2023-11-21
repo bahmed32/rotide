@@ -12,12 +12,14 @@ const assert = require('chai').assert;
 
 
 describe("#tail", () => {
+
   it("returns undefined for empty array", () => {
-    assert.strictEqual(tail([]), undefined);
+    assert.deepEqual(tail([]), undefined);
   });
 
-  it("returns undefined for []", () => {
-    assert.strictEqual(tail(["Hello", "Lighthouse", "Labs"]), ["Lighthouse", "Labs" ]);
+  it("returns['Lighthouse', 'Labs'] for ['Hello', 'Lighthouse', 'Labs']", () => {
+    assert.deepEqual(tail(["Hello", "Lighthouse", "Labs"]), ["Lighthouse", "Labs"]);
   });
-})
+
+});
 

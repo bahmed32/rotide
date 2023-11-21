@@ -37,7 +37,8 @@ const without = function(source, itemsToRemove) {
   // if the number are present return a new arrar with only the numbers that werent present 
 
 };
+module.exports = without;
 
-without([1, 2, 3], [1]); // => [2, 3]
-without(["1", "2", "3"], [1, 2, "3"]); // => ["1", "2"]
-console.log(without([1, 2, 3], [1]));
+// without([1, 2, 3], [1]); // => [2, 3]
+// without(["1", "2", "3"], [1, 2, "3"]); // => ["1", "2"]
+// console.log(without([1, 2, 3], [1]));
