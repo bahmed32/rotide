@@ -6,9 +6,10 @@ const assertObjectsEqual = function(actual, expected) {
   const inspectExpected = inspect(expected)
  
   if (eqObjects(actual, expected)) {
-    return (`🛑🛑🛑 Assertion Failed: ${inspectActual} !== ${inspectActual}`);
+    return (`✅✅✅ Assertion Passed: ${inspectActual} === ${inspectExpected}`)
   }
-return (`✅✅✅ Assertion Passed: ${inspectActual} === ${inspectExpected}`);
+  return (`🛑🛑🛑 Assertion Failed: ${inspectActual} !== ${inspectActual}`);
+
 };
 
 const obj1 = { a: '1', b: 2 };
@@ -24,3 +25,5 @@ const obj6 = { a: 1, b: 3 };
 console.log(assertObjectsEqual(obj5, obj6)); false
 
 console.log(`Example label: ${inspect(obj5, obj6)}`);
+
+module.exports = assertObjectsEqual;
