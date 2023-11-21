@@ -59,8 +59,5 @@ const middle = function(array) {
   // return 2 elements in middle 
 };
 
-console.log(middle([1])); // => []
-console.log(middle([1, 2]));
 
-console.log(middle([1, 2, 3, 4]));
-console.log(middle([1, 2, 3, 4, 5]));
+module.exports = middle;
